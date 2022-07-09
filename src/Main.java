@@ -45,6 +45,13 @@ public class Main {
         byte myNewByteValue = (byte) (myMinByteValue / 2);
         short myNewShortValue = (short) (myMinShortValue / 2);
 
+        byte num1 = 100;
+        short num2 = 30_000;
+        int num3 = 1_539_632_825;
+        long num4 = 50_000L + (10L * (num1 + num2 + num3));
+
+        System.out.println(num4);
+
     }
 
 
