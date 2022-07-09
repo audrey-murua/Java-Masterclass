@@ -45,6 +45,7 @@ public class Main {
         byte myNewByteValue = (byte) (myMinByteValue / 2);
         short myNewShortValue = (short) (myMinShortValue / 2);
 
+        // Primitive Types Challenge
         byte num1 = 100;
         short num2 = 30_000;
         int num3 = 1_539_632_825;
