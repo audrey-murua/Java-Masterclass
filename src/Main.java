@@ -30,6 +30,7 @@ public class Main {
         System.out.println("Short Maximum Value = " + myMaxShortValue);
 
         long myLongValue = 100L;
+        // L is needed after the number to assign it as a long data type, otherwise it will be an int
         long myMinLongValue = Long.MIN_VALUE;
         long myMaxLongValue = Long.MAX_VALUE;
         System.out.println("Long Minimum Value = " + myMinLongValue);
@@ -38,6 +39,13 @@ public class Main {
         long bigLongLiteralValue = 2_147_483_647_234L;
         System.out.println(bigLongLiteralValue);
 
+        int myTotal = (myMinIntValue / 2);
+//        byte myNewByteValue = (myMinByteValue / 2);
+        // receives an error, needs to be casted into a byte
+
+        //Casted or converted into another type
+        byte myNewByteValue = (byte) (myMinByteValue / 2);
+        short myNewShortValue = (short) (myMinShortValue / 2);
 
     }
 
