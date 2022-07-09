@@ -4,6 +4,10 @@ public class HelloWorld {
         System.out.println("Hello Audrey");
 
         int myFirstNumber = (10 + 5) + (2 * 10);
-        System.out.println(myFirstNumber);
+        int mySecondNumber = 12;
+        int myThirdNumber = 6;
+        int myTotal = myFirstNumber + mySecondNumber + myThirdNumber;
+
+        System.out.println(myTotal);
     }
 }
