@@ -1,4 +1,4 @@
-public class Main {
+public class PrimitiveTypes {
 
     public static void main(String[] args) {
 
@@ -45,6 +45,7 @@ public class Main {
         byte myNewByteValue = (byte) (myMinByteValue / 2);
         short myNewShortValue = (short) (myMinShortValue / 2);
 
+
         // Primitive Types Challenge
         byte num1 = 100;
         short num2 = 30_000;
@@ -52,6 +53,25 @@ public class Main {
         long num4 = 50_000L + (10L * (num1 + num2 + num3));
 
         System.out.println(num4);
+
+
+        //Float and Double Primitive Types
+
+        float myMinFloatValue = Float.MIN_VALUE;
+        float myMaxFloatValue = Float.MAX_VALUE;
+        System.out.println("Float minimum value = " + myMinFloatValue);
+        System.out.println("Float maximum value = " + myMaxFloatValue);
+
+        double myMinDoubleValue = Double.MIN_VALUE;
+        double myMaxDoubleValue = Double.MAX_VALUE;
+        System.out.println("Double minimum value = " + myMinDoubleValue);
+        System.out.println("Double maximum value = " + myMaxDoubleValue);
+
+        int myIntValue = 5;
+        float myFloatValue = 5;
+        double myDoubleValue = 5;
+
+
 
     }
 
