@@ -76,6 +76,23 @@ public class PrimitiveTypes {
         System.out.println("My Double Value = " + myDoubleValue);
 
 
+        // Float and Double Challenge
+
+        // 1. Create a variable with the appropriate type to store the number of pounds to be converted to kilograms.
+        // 2. Calculate the result i.e. the number of kilograms based on the contents of the variable above and store the result in a 2nd appropriate variable.
+        // 3. Print out the result.
+        // Hint: 1 pound is equal to 0.45359237 of a kilogram.
+
+        double poundsToConvert = 256D;
+        double poundsConvertedToKilos = poundsToConvert * 0.45359237D;
+        System.out.println("Converted pounds to kilograms = " + poundsConvertedToKilos);
+
+        //Another way to use underscore instead of commas
+        double pi = 3.1_415_927D;
+        System.out.println(pi);
+
+
+
 
     }
 
