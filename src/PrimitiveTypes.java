@@ -68,8 +68,8 @@ public class PrimitiveTypes {
         System.out.println("Double maximum value = " + myMaxDoubleValue);
 
         int myIntValue = 5;
-        float myFloatValue = 5;
-        double myDoubleValue = 5;
+        float myFloatValue = 5.25F;
+        double myDoubleValue = 5.25D;
 
 
 
